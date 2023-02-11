@@ -6,7 +6,7 @@ namespace Music
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("11111");
+            Console.WriteLine("22222");
         }
     }
 }

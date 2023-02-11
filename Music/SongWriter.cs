@@ -6,8 +6,9 @@ namespace Music
 {
     public class SongWriter
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public List<Song> Songs { get; set; }
-        public string WriterName { get; set; }
-        public string WriterGenre { get; set; }
     }
 }

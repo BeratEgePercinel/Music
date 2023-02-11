@@ -6,7 +6,10 @@ namespace Music
 {
     public class Singer
     {
-        public List<Song> Songs { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
+        public string WebsiteAddress { get; set; }
+        public string Type { get; set; }
+        public List<SongSinger> SongSingers { get; set; }
     }
 }

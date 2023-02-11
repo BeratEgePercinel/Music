@@ -6,11 +6,12 @@ namespace Music
 {
     public class User
     {
-        public List<Song> Songs { get; set; }
-        public List<Playlist> Playlists { get; set; }
+        public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
+        public List<SongUser> SongUsers { get; set; }
+        public List<UserPlaylist> UserPlaylists { get; set; }
     }
 }
